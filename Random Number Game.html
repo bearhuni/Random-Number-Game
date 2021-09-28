@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Game</title>
+    <link rel="stylesheet" href="./RNG.css">
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <form id="maxNumForm">
+        <h4>Generate a number between 0 and <span><input type="number" id="rangeInput"></span></h4>
+    </form>
+    <div id="chooseNumBox">
+        <form id="chooseNumForm">
+            <p>Guess the number : <span><input type="number" id="chooseNum"></span>
+                <span><input type="submit" value="Play!"></span>
+            </p>
+        </form>
+        <p id="gameChoose"></p>
+        <p id="gameResult"></p>
+    </div>
+    <script src="./RNG.js"></script>
+</body>
+</html>
